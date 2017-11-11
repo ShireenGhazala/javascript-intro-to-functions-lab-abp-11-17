@@ -14,15 +14,12 @@ function sayHiToGrandma(string) {
   let hello;
   if (string.toLowerCase===string) {
     hello="I cant hear you!";
-  } else {
-        if (string.toUpperCase===string){
+       } 
+  else if (string.toUpperCase===string){
           hello= "YES INDEED!"
         }
-      }
-    else {
-      if (string==="I love you, Grandma.") {
+    else if (string==="I love you, Grandma.") {
         hello="I love you, too."
       }
-    }
     return hello;
   }
